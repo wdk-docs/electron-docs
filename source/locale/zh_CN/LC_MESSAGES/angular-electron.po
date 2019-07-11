@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, BandCap
+# This file is distributed under the same license as the electron docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: electron docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-11 11:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/angular-electron.rst:2
+msgid "angular-electron"
+msgstr "angular-electron"
+
+#: ../../source/angular-electron.rst:4
+msgid "|Angular Logo| |Electron Logo|"
+msgstr "|Angular Logo| |Electron Logo|"
+
+#: ../../source/angular-electron.rst:7
+msgid ""
+"|Travis Build Status| |Dependencies Status| |Make a pull request| "
+"|License|"
+msgstr ""
+"|Travis Build Status| |Dependencies Status| |Make a pull request| "
+"|License|"
+
+#: ../../source/angular-electron.rst:12
+msgid "|Watch on GitHub| |Star on GitHub| |Tweet|"
+msgstr "|Watch on GitHub| |Star on GitHub| |Tweet|"
+
+#: ../../source/angular-electron.rst:18
+msgid ""
+"Bootstrap and package your project with Angular 8 and Electron "
+"(Typescript + SASS + Hot Reload) for creating Desktop applications."
+msgstr "使用Angular 8和Electron(Typescript + SASS + Hot Reload)引导和打包您的项目, 以创建桌面应用程序. "
+
+#: ../../source/angular-electron.rst:20
+msgid "Currently runs with:"
+msgstr "目前正在运行:"
+
+#: ../../source/angular-electron.rst:22
+msgid "Angular v8.0.0"
+msgstr "Angular v8.0.0"
+
+#: ../../source/angular-electron.rst:23
+msgid "Electron v5.0.2"
+msgstr "Electron v5.0.2"
+
+#: ../../source/angular-electron.rst:24
+msgid "Electron Builder v20.41.0"
+msgstr "Electron Builder v20.41.0"
+
+#: ../../source/angular-electron.rst:26
+msgid "With this sample, you can :"
+msgstr "有了这个样本, 你可以:"
+
+#: ../../source/angular-electron.rst:28
+msgid "Run your app in a local development environment with Electron & Hot reload"
+msgstr "使用Electron＆Hot重新加载在本地开发环境中运行您的应用程序"
+
+#: ../../source/angular-electron.rst:29
+msgid "Run your app in a production environment"
+msgstr "在生产环境中运行您的应用程序"
+
+#: ../../source/angular-electron.rst:30
+msgid "Package your app into an executable file for Linux, Windows & Mac"
+msgstr "将您的应用程序打包成Linux, Windows和Mac的可执行文件"
+
+#: ../../source/angular-electron.rst:32
+msgid "Angular 8.0 CLI needs Node 10.9 or later to work."
+msgstr "Angular 8.0 CLI需要节点10.9或更高版本才能工作. "
+
+#: ../../source/angular-electron.rst:35
+msgid "Getting Started"
+msgstr "入门"
+
+#: ../../source/angular-electron.rst:37
+msgid "Clone this repository locally :"
+msgstr "在本地克隆此存储库:"
+
+#: ../../source/angular-electron.rst:43
+msgid "Install dependencies with npm :"
+msgstr "使用npm安装依赖项:"
+
+#: ../../source/angular-electron.rst:49
+msgid ""
+"There is an issue with ``yarn`` and ``node_modules`` that are only used "
+"in electron on the backend when the application is built by the packager."
+" Please use ``npm`` as dependencies manager."
+msgstr "``yarn`` 和 ``node_modules`` 存在一个问题, 当应用程序由打包器构建时, 它只用在后端的 electron 中. 请使用 ``npm`` 作为依赖项管理器. "
+
+#: ../../source/angular-electron.rst:53
+msgid ""
+"If you want to generate Angular components with Angular-cli , you "
+"**MUST** install ``@angular/cli`` in npm global context. Please follow "
+"`Angular-cli documentation <https://github.com/angular/angular-cli>`__ if"
+" you had installed a previous version of ``angular-cli``."
+msgstr "如果你想用Angular-cli生成Angular组件, 你 **必须** 在npm全局上下文中安装 ``@angular/cli``. 如果您安装了以前版本的 ``angular-cli``, 请按照 `Angular-cli文档 <https://github.com/angular/angular-cli>`_ 进行操作. "
+
+#: ../../source/angular-electron.rst:63
+msgid "To build for development"
+msgstr "为开发而构建"
+
+#: ../../source/angular-electron.rst:65
+msgid "**in a terminal window** -> npm start"
+msgstr "**在终端窗口** -> npm start"
+
+#: ../../source/angular-electron.rst:67
+msgid ""
+"Voila! You can use your Angular + Electron app in a local development "
+"environment with hot reload !"
+msgstr "瞧！您可以在本地开发环境中使用Angular + Electron应用程序进行热重新加载！"
+
+#: ../../source/angular-electron.rst:70
+msgid ""
+"The application code is managed by ``main.ts``. In this sample, the app "
+"runs with a simple Angular App (http://localhost:4200) and an Electron "
+"window. The Angular component contains an example of Electron and NodeJS "
+"native lib import. You can disable “Developer Tools” by commenting "
+"``win.webContents.openDevTools();`` in ``main.ts``."
+msgstr "应用程序代码由 ``main.ts`` 管理. 在此示例中, 应用程序使用简单的Angular App(http://localhost:4200)和Electron窗口运行.  Angular组件包含Electron和NodeJS本机lib导入的示例. 您可以通过在 ``main.ts`` 中注释 ``win.webContents.openDevTools();`` 来禁用 “开发者工具”. "
+
+#: ../../source/angular-electron.rst:77
+msgid "Included Commands"
+msgstr "包含的命令"
+
+#: ../../source/angular-electron.rst:80
+msgid "Command"
+msgstr "命令"
+
+#: ../../source/angular-electron.rst:80
+msgid "Description"
+msgstr "描述"
+
+#: ../../source/angular-electron.rst:82
+msgid "``npm run ng:serve:web``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:82
+msgid "Execute the app in the browser"
+msgstr "在浏览器中执行该应用程序"
+
+#: ../../source/angular-electron.rst:84
+msgid "``npm run build``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:84
+msgid "Build the app. Your built files are in the /dist folder."
+msgstr "构建应用程序. 您构建的文件位于 /dist 文件夹中. "
+
+#: ../../source/angular-electron.rst:86
+msgid "``npm run build:prod``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:86
+msgid "Build the app with Angular aot. Your built files are in the /dist folder."
+msgstr "使用Angular aot构建应用程序. 您构建的文件位于 /dist 文件夹中. "
+
+#: ../../source/angular-electron.rst:88
+msgid "``npm run electron:local``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:88
+msgid "Builds your application and start electron"
+msgstr "构建您的应用程序并启动 electron "
+
+#: ../../source/angular-electron.rst:90
+msgid "``npm run electron:linux``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:90
+msgid "Builds your application and creates an app consumable on linux system"
+msgstr "构建您的应用程序并在Linux系统上创建应用程序耗材"
+
+#: ../../source/angular-electron.rst:92
+msgid "``npm run electron:windows``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:92
+msgid ""
+"On a Windows OS, builds your application and creates an app consumable in"
+" windows 32/64 bit systems"
+msgstr "在Windows操作系统上, 构建应用程序并在Windows 32/64位系统中创建应用程序耗材"
+
+#: ../../source/angular-electron.rst:94
+msgid "``npm run electron:mac``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:94
+msgid ""
+"On a MAC OS, builds your application and generates a ``.app`` file of "
+"your application that can be run on Mac"
+msgstr "在MAC OS上, 构建应用程序并生成可在Mac上运行的应用程序的 ``.app`` 文件"
+
+#: ../../source/angular-electron.rst:97
+msgid ""
+"**Your application is optimised. Only /dist folder and node dependencies "
+"are included in the executable.**"
+msgstr "**您的应用程序已优化. 只有 /dist 文件夹和节点依赖项包含在可执行文件中.**"
+
+#: ../../source/angular-electron.rst:100
+msgid "You want to use a specific lib (like rxjs) in electron main thread ?"
+msgstr "你想在 electron 主线程中使用特定的lib(如rxjs)吗？"
+
+#: ../../source/angular-electron.rst:102
+msgid ""
+"You can do this! Just by importing your library in npm dependencies (not "
+"devDependencies) with ``npm install --save``. It will be loaded by "
+"electron during build phase and added to the final package. Then use your"
+" library by importing it in ``main.ts`` file. Easy no ?"
+msgstr "你可以这样做！只需使用 ``npm install --save`` 在npm依赖项(不是devDependencies)中导入库. 它将在构建阶段由 electron 加载并添加到最终封装中. 然后通过在 ``main.ts`` 文件中导入它来使用你的库. 容易没？"
+
+#: ../../source/angular-electron.rst:108
+msgid "Browser mode"
+msgstr "浏览器模式"
+
+#: ../../source/angular-electron.rst:110
+msgid ""
+"Maybe you want to execute the application in the browser with hot reload "
+"? You can do it with ``npm run ng:serve:web``. **Note that you can’t use "
+"Electron or NodeJS native libraries in this case.** Please check "
+"``providers/electron.service.ts`` to watch how conditional import of "
+"electron/Native libraries is done."
+msgstr "也许你想在热重载的浏览器中执行应用程序？你可以用 ``npm run ng:serve:web`` 来做. **请注意, 在这种情况下, 您不能使用Electron或NodeJS本机库.** 请检查 ``providers/electron.service.ts`` 以观察  electron/Native 库的条件导入是如何完成的. "
+
+#: ../../source/angular-electron.rst:117
+msgid "Branch & Packages version"
+msgstr "分支和包版本"
+
+#: ../../source/angular-electron.rst:119
+msgid ""
+"Angular 4 & Electron 1 : Branch `angular4 <https://github.com/maximegris"
+"/angular-electron/tree/angular4>`__"
+msgstr ""
+"Angular 4 & Electron 1 : Branch `angular4 <https://github.com/maximegris"
+"/angular-electron/tree/angular4>`__"
+
+#: ../../source/angular-electron.rst:120
+msgid ""
+"Angular 5 & Electron 1 : Branch `angular5 <https://github.com/maximegris"
+"/angular-electron/tree/angular5>`__"
+msgstr ""
+"Angular 5 & Electron 1 : Branch `angular5 <https://github.com/maximegris"
+"/angular-electron/tree/angular5>`__"
+
+#: ../../source/angular-electron.rst:121
+msgid ""
+"Angular 6 & Electron 3 : Branch `angular6 <https://github.com/maximegris"
+"/angular-electron/tree/angular6>`__"
+msgstr ""
+"Angular 6 & Electron 3 : Branch `angular6 <https://github.com/maximegris"
+"/angular-electron/tree/angular6>`__"
+
+#: ../../source/angular-electron.rst:122
+msgid ""
+"Angular 7 & Electron 3 : Branch `angular7 <https://github.com/maximegris"
+"/angular-electron/tree/angular7>`__"
+msgstr ""
+"Angular 7 & Electron 3 : Branch `angular7 <https://github.com/maximegris"
+"/angular-electron/tree/angular7>`__"
+
+#: ../../source/angular-electron.rst:123
+msgid "Angular 8 & Electron 5 : (master)"
+msgstr "Angular 8 & Electron 5 : (master)"
+

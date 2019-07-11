@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, BandCap
+# This file is distributed under the same license as the electron docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: electron docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-11 11:24+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/angular-electron.rst:2
+msgid "angular-electron"
+msgstr ""
+
+#: ../../source/angular-electron.rst:4
+msgid "|Angular Logo| |Electron Logo|"
+msgstr ""
+
+#: ../../source/angular-electron.rst:7
+msgid "|Travis Build Status| |Dependencies Status| |Make a pull request| |License|"
+msgstr ""
+
+#: ../../source/angular-electron.rst:12
+msgid "|Watch on GitHub| |Star on GitHub| |Tweet|"
+msgstr ""
+
+#: ../../source/angular-electron.rst:18
+msgid "Bootstrap and package your project with Angular 8 and Electron (Typescript + SASS + Hot Reload) for creating Desktop applications."
+msgstr ""
+
+#: ../../source/angular-electron.rst:20
+msgid "Currently runs with:"
+msgstr ""
+
+#: ../../source/angular-electron.rst:22
+msgid "Angular v8.0.0"
+msgstr ""
+
+#: ../../source/angular-electron.rst:23
+msgid "Electron v5.0.2"
+msgstr ""
+
+#: ../../source/angular-electron.rst:24
+msgid "Electron Builder v20.41.0"
+msgstr ""
+
+#: ../../source/angular-electron.rst:26
+msgid "With this sample, you can :"
+msgstr ""
+
+#: ../../source/angular-electron.rst:28
+msgid "Run your app in a local development environment with Electron & Hot reload"
+msgstr ""
+
+#: ../../source/angular-electron.rst:29
+msgid "Run your app in a production environment"
+msgstr ""
+
+#: ../../source/angular-electron.rst:30
+msgid "Package your app into an executable file for Linux, Windows & Mac"
+msgstr ""
+
+#: ../../source/angular-electron.rst:32
+msgid "Angular 8.0 CLI needs Node 10.9 or later to work."
+msgstr ""
+
+#: ../../source/angular-electron.rst:35
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/angular-electron.rst:37
+msgid "Clone this repository locally :"
+msgstr ""
+
+#: ../../source/angular-electron.rst:43
+msgid "Install dependencies with npm :"
+msgstr ""
+
+#: ../../source/angular-electron.rst:49
+msgid "There is an issue with ``yarn`` and ``node_modules`` that are only used in electron on the backend when the application is built by the packager. Please use ``npm`` as dependencies manager."
+msgstr ""
+
+#: ../../source/angular-electron.rst:53
+msgid "If you want to generate Angular components with Angular-cli , you **MUST** install ``@angular/cli`` in npm global context. Please follow `Angular-cli documentation <https://github.com/angular/angular-cli>`__ if you had installed a previous version of ``angular-cli``."
+msgstr ""
+
+#: ../../source/angular-electron.rst:63
+msgid "To build for development"
+msgstr ""
+
+#: ../../source/angular-electron.rst:65
+msgid "**in a terminal window** -> npm start"
+msgstr ""
+
+#: ../../source/angular-electron.rst:67
+msgid "Voila! You can use your Angular + Electron app in a local development environment with hot reload !"
+msgstr ""
+
+#: ../../source/angular-electron.rst:70
+msgid "The application code is managed by ``main.ts``. In this sample, the app runs with a simple Angular App (http://localhost:4200) and an Electron window. The Angular component contains an example of Electron and NodeJS native lib import. You can disable “Developer Tools” by commenting ``win.webContents.openDevTools();`` in ``main.ts``."
+msgstr ""
+
+#: ../../source/angular-electron.rst:77
+msgid "Included Commands"
+msgstr ""
+
+#: ../../source/angular-electron.rst:80
+msgid "Command"
+msgstr ""
+
+#: ../../source/angular-electron.rst:80
+msgid "Description"
+msgstr ""
+
+#: ../../source/angular-electron.rst:82
+msgid "``npm run ng:serve:web``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:82
+msgid "Execute the app in the browser"
+msgstr ""
+
+#: ../../source/angular-electron.rst:84
+msgid "``npm run build``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:84
+msgid "Build the app. Your built files are in the /dist folder."
+msgstr ""
+
+#: ../../source/angular-electron.rst:86
+msgid "``npm run build:prod``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:86
+msgid "Build the app with Angular aot. Your built files are in the /dist folder."
+msgstr ""
+
+#: ../../source/angular-electron.rst:88
+msgid "``npm run electron:local``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:88
+msgid "Builds your application and start electron"
+msgstr ""
+
+#: ../../source/angular-electron.rst:90
+msgid "``npm run electron:linux``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:90
+msgid "Builds your application and creates an app consumable on linux system"
+msgstr ""
+
+#: ../../source/angular-electron.rst:92
+msgid "``npm run electron:windows``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:92
+msgid "On a Windows OS, builds your application and creates an app consumable in windows 32/64 bit systems"
+msgstr ""
+
+#: ../../source/angular-electron.rst:94
+msgid "``npm run electron:mac``"
+msgstr ""
+
+#: ../../source/angular-electron.rst:94
+msgid "On a MAC OS, builds your application and generates a ``.app`` file of your application that can be run on Mac"
+msgstr ""
+
+#: ../../source/angular-electron.rst:97
+msgid "**Your application is optimised. Only /dist folder and node dependencies are included in the executable.**"
+msgstr ""
+
+#: ../../source/angular-electron.rst:100
+msgid "You want to use a specific lib (like rxjs) in electron main thread ?"
+msgstr ""
+
+#: ../../source/angular-electron.rst:102
+msgid "You can do this! Just by importing your library in npm dependencies (not devDependencies) with ``npm install --save``. It will be loaded by electron during build phase and added to the final package. Then use your library by importing it in ``main.ts`` file. Easy no ?"
+msgstr ""
+
+#: ../../source/angular-electron.rst:108
+msgid "Browser mode"
+msgstr ""
+
+#: ../../source/angular-electron.rst:110
+msgid "Maybe you want to execute the application in the browser with hot reload ? You can do it with ``npm run ng:serve:web``. **Note that you can’t use Electron or NodeJS native libraries in this case.** Please check ``providers/electron.service.ts`` to watch how conditional import of electron/Native libraries is done."
+msgstr ""
+
+#: ../../source/angular-electron.rst:117
+msgid "Branch & Packages version"
+msgstr ""
+
+#: ../../source/angular-electron.rst:119
+msgid "Angular 4 & Electron 1 : Branch `angular4 <https://github.com/maximegris/angular-electron/tree/angular4>`__"
+msgstr ""
+
+#: ../../source/angular-electron.rst:120
+msgid "Angular 5 & Electron 1 : Branch `angular5 <https://github.com/maximegris/angular-electron/tree/angular5>`__"
+msgstr ""
+
+#: ../../source/angular-electron.rst:121
+msgid "Angular 6 & Electron 3 : Branch `angular6 <https://github.com/maximegris/angular-electron/tree/angular6>`__"
+msgstr ""
+
+#: ../../source/angular-electron.rst:122
+msgid "Angular 7 & Electron 3 : Branch `angular7 <https://github.com/maximegris/angular-electron/tree/angular7>`__"
+msgstr ""
+
+#: ../../source/angular-electron.rst:123
+msgid "Angular 8 & Electron 5 : (master)"
+msgstr ""
+
